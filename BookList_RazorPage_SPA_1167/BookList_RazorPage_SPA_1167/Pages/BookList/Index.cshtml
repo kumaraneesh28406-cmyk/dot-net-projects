@@ -1,0 +1,84 @@
+﻿@page
+@model BookList_RazorPage_SPA_1167.Pages.BookList.IndexModel
+@{
+
+
+    <!-- Page: BookList -> Index.cshtml -->
+
+    <div class="row">
+        <div class="col-9">
+            <h2 class="text-primary text-center">Book List</h2>
+        </div>
+
+        <div class="col-3">
+            <a asp-page="Upsert" class="btn btn-primary text-white form-control">
+            <i class="fas fa-plus"></i>
+                Add new book
+            </a>
+        </div>
+    </div>
+
+    <div class="container rounded border m-2 p-2">
+        <table class="table table-bordered table-hover table-striped">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Description</th>
+                    <th>Author</th>
+                    <th>ISBN</th>
+                    <th>Price</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+            <form method="post">
+                @foreach (var book in Model.Books1)
+                {
+                    <tr>
+                        <td>@book.Title</td>
+                        <td>@book.Description</td>
+                        <td>@book.Author</td>
+                        <td>@book.ISBN</td>
+                        <td>@book.Price</td>
+                        <td>
+                            <!-- Add action buttons here, such as Edit and Delete -->
+                            <a asp-page="Upsert" class="btn btn-info"asp-route-id="@book.Id">
+                            <i class="fas fa-edit"></i>
+                            </a>
+
+
+                            <button  class="btn btn-danger" onclick="return confirm('want to delete this book?')" 
+                            asp-route-id="@book.Id" asp-page-handler="Delete">
+                            <i class="fas fa-trash"></i>
+                            </button>
+
+                        </td>
+                                
+                    </tr>
+                }
+                </form>
+            </tbody>
+        </table>
+    </div>
+}
+<h2 class="text-danger text-center">OR</h2>
+
+<div class="container rounded border p-2 m-2">
+    <table id="tblData" class="table table-bordered table-hover table-striped">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Genre</th>
+                <th>Description</th>
+                <th>Author</th>
+                <th>ISBN</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+            </table>
+</div>
+@section Scripts
+{
+   <script src="~/js/Book.js"></script>
+}
+

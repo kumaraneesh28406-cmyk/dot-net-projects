@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\ASP.NET PRACTICES\\WebApplication_cnt_sta_cty_Reg_layout_1175\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5524FE-9132-4428-8B69-574BEA7FB3E4}|WebApplication_cnt_sta_cty_Reg_layout_1175\\WebApplication_cnt_sta_cty_Reg_layout_1175.csproj|F:\\ASP.NET PRACTICES\\WebApplication_cnt_sta_cty_Reg_layout_1175\\webapplication_cnt_sta_cty_reg_layout_1175\\views\\register\\upsert.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AD5524FE-9132-4428-8B69-574BEA7FB3E4}|WebApplication_cnt_sta_cty_Reg_layout_1175\\WebApplication_cnt_sta_cty_Reg_layout_1175.csproj|solutionrelative:webapplication_cnt_sta_cty_reg_layout_1175\\views\\register\\upsert.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5524FE-9132-4428-8B69-574BEA7FB3E4}|WebApplication_cnt_sta_cty_Reg_layout_1175\\WebApplication_cnt_sta_cty_Reg_layout_1175.csproj|F:\\ASP.NET PRACTICES\\WebApplication_cnt_sta_cty_Reg_layout_1175\\webapplication_cnt_sta_cty_reg_layout_1175\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD5524FE-9132-4428-8B69-574BEA7FB3E4}|WebApplication_cnt_sta_cty_Reg_layout_1175\\WebApplication_cnt_sta_cty_Reg_layout_1175.csproj|solutionrelative:webapplication_cnt_sta_cty_reg_layout_1175\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5524FE-9132-4428-8B69-574BEA7FB3E4}|WebApplication_cnt_sta_cty_Reg_layout_1175\\WebApplication_cnt_sta_cty_Reg_layout_1175.csproj|f:\\asp.net practices\\webapplication_cnt_sta_cty_reg_layout_1175\\webapplication_cnt_sta_cty_reg_layout_1175\\views\\register\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AD5524FE-9132-4428-8B69-574BEA7FB3E4}|WebApplication_cnt_sta_cty_Reg_layout_1175\\WebApplication_cnt_sta_cty_Reg_layout_1175.csproj|solutionrelative:webapplication_cnt_sta_cty_reg_layout_1175\\views\\register\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "upsert.cshtml",
+              "DocumentMoniker": "F:\\ASP.NET PRACTICES\\WebApplication_cnt_sta_cty_Reg_layout_1175\\WebApplication_cnt_sta_cty_Reg_layout_1175\\Views\\Register\\upsert.cshtml",
+              "RelativeDocumentMoniker": "WebApplication_cnt_sta_cty_Reg_layout_1175\\Views\\Register\\upsert.cshtml",
+              "ToolTip": "F:\\ASP.NET PRACTICES\\WebApplication_cnt_sta_cty_Reg_layout_1175\\WebApplication_cnt_sta_cty_Reg_layout_1175\\Views\\Register\\upsert.cshtml",
+              "RelativeToolTip": "WebApplication_cnt_sta_cty_Reg_layout_1175\\Views\\Register\\upsert.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-02T08:48:04.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\ASP.NET PRACTICES\\WebApplication_cnt_sta_cty_Reg_layout_1175\\WebApplication_cnt_sta_cty_Reg_layout_1175\\Views\\Register\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication_cnt_sta_cty_Reg_layout_1175\\Views\\Register\\Index.cshtml",
+              "ToolTip": "F:\\ASP.NET PRACTICES\\WebApplication_cnt_sta_cty_Reg_layout_1175\\WebApplication_cnt_sta_cty_Reg_layout_1175\\Views\\Register\\Index.cshtml",
+              "RelativeToolTip": "WebApplication_cnt_sta_cty_Reg_layout_1175\\Views\\Register\\Index.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAADMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-02T07:56:29.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RegisterController.cs",
+              "DocumentMoniker": "F:\\ASP.NET PRACTICES\\WebApplication_cnt_sta_cty_Reg_layout_1175\\WebApplication_cnt_sta_cty_Reg_layout_1175\\Controllers\\RegisterController.cs",
+              "RelativeDocumentMoniker": "WebApplication_cnt_sta_cty_Reg_layout_1175\\Controllers\\RegisterController.cs",
+              "ToolTip": "F:\\ASP.NET PRACTICES\\WebApplication_cnt_sta_cty_Reg_layout_1175\\WebApplication_cnt_sta_cty_Reg_layout_1175\\Controllers\\RegisterController.cs",
+              "RelativeToolTip": "WebApplication_cnt_sta_cty_Reg_layout_1175\\Controllers\\RegisterController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAcwCsAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T07:46:51.452Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

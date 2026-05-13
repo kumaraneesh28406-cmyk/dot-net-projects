@@ -1,0 +1,44 @@
+﻿@model WebApplication_cnt_sta_cty_Reg_layout_1175.Models.Register
+<h2 class="text-primary text-center"> Details</h2>
+
+<table class="table table-bordered table-striped table-responsive">
+    <thead>
+        <tr>
+            <th> Name</th>
+            <th> Address</th>
+            <th> Email</th>
+            <th> Gender</th>
+            <th> IsSubscribe</th>
+            <th> Country</th>
+            <th> State</th>
+            <th> City</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>@Model.Name</td>
+            <td>@Model.Address</td>
+            <td>@Model.Email</td>
+            <td>@Model.Gender</td>
+            <td>@Model.IsSubscribe</td>
+            @*<td>@Html.DisplayFor(m => Model.IsSubscribe)</td>*@
+            <td>
+                @if (Model.IsSubscribe)
+                {
+    <input type="checkbox" checked disabled /> }
+else
+{
+<input type="checkbox" disabled />}
+            </td>
+            <td>@Model.City.State.Country.Name</td>
+            <td>@Model.City.State.Name</td>
+            <td>@Model.City.Name</td>
+
+        </tr>
+    </tbody>
+</table>
+@Html.ActionLink("Edit","upsert",new{Id=Model.Id})
+<br />
+@Html.ActionLink("Back to list","Index")
+
